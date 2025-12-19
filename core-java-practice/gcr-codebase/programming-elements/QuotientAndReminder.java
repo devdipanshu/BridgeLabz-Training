@@ -10,6 +10,7 @@ public class QuotientAndReminder {
 		int reminder = number1%number2;
 		System.out.println("The Quotient is "+quotient+ " and Reminder is "+reminder+" of two number "+number1+
 				" and "+number2);
+		sc.close();
 
 	}
 

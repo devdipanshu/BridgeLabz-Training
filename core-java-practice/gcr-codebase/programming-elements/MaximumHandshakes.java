@@ -6,5 +6,6 @@ public class MaximumHandshakes {
 		int numberOfStudents = sc.nextInt();
 		int totalHandshakes = (numberOfStudents*(numberOfStudents-1))/2;
 		System.out.println("Number of Possible HandShakes "+totalHandshakes);
+		sc.close();
 	}
 }

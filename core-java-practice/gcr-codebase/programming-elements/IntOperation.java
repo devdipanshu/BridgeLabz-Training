@@ -12,6 +12,7 @@ public class IntOperation {
 		int result3 = c + a / b;
 		int result4 = a % b + c;
 		System.out.println("The results of Int Operations are "+result1+", "+result2+", "+result3+", and "+result4);
+		sc.close();
 
 	}
 

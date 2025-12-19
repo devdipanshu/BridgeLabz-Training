@@ -9,6 +9,7 @@ public class CalculateSimpleInterest {
 		float time = sc.nextFloat();
 		float simpleinterest = (principal*rate*time)/100;
 		System.out.println(simpleinterest);
+		sc.close();
 
 	}
 

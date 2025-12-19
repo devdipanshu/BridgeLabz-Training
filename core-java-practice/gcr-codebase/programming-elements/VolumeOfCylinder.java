@@ -8,6 +8,7 @@ public class VolumeOfCylinder {
 		double height = sc.nextDouble();
 		double area = Math.PI*radius*radius*height;
 		System.out.println(area);
+		sc.close();
 
 	}
 

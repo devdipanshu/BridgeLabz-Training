@@ -9,6 +9,7 @@ public class CalculateAverageOfThreeNumber {
 		int num3 = sc.nextInt();
 		int result = (num1+num2+num3)/3;
 		System.out.println(result);
+		sc.close();
 	}
 
 }

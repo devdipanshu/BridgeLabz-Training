@@ -11,5 +11,6 @@ public class BasicCalculator {
 		double division = num1/num2;
 		System.out.println("The addition, subtraction, multiplication and division value of 2 numbers "
 				+ num1 +" And "+num2 +" is "+addition+", "+subtraction+", "+multiplication+", "+division);
+		sc.close();
 	}
 }

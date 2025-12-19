@@ -8,6 +8,7 @@ public class DistanceInYardsAndMiles {
 		double distanceInMiles = distanceInYards/1760;
 		System.out.println("The distance in Feets is "+distanceInFeets+", Yards is "+distanceInYards
 				+", Miles is "+distanceInMiles);
+		sc.close();
 	}
 
 }

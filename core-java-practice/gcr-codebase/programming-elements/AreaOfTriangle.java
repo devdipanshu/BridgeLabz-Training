@@ -9,5 +9,6 @@ public class AreaOfTriangle {
 		double areaInInches = areaInCM/2.54;
 		System.out.println("Height of trianle is "+height+", Base is "+base+", the area in CM is "+areaInCM+""
 				+ ", and the area in Inches is "+areaInInches);
+		sc.close();
 	}
 }

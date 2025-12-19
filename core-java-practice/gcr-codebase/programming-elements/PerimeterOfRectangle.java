@@ -7,5 +7,6 @@ public class PerimeterOfRectangle {
     	int width = sc.nextInt();
     	int perimeter = 2*length*width;
     	System.out.println(perimeter);
+    	sc.close();
     }
 }
