@@ -7,7 +7,7 @@ public class MayasBMI {
 		System.out.println("What is Your Weight in Kg: ");
 		double weightInKg = sc.nextDouble();
 		
-		System.out.println("What is Your Height in M: ");
+		System.out.println("What is Your Height in Meter: ");
 		double heightInM = sc.nextDouble();
 		
 		

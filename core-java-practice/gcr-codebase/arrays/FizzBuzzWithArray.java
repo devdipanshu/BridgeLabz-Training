@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class FizzBuzzWithArray {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int number = sc.nextInt();
+		
+		if(number>0) {
+			String[]values = new String[number+1];
+			for(int i = 0;i<=number;i++) {
+				if(i%3==0 && i%5 == 0) {
+					values[i] = "FizzBuzz";
+				}
+				else if(i%3==0) {
+					values[i] = "Fizz";
+				}
+				else if(i%5 == 0) {
+					values[i] = "Buzz";
+				}
+				else {
+					values[i] = ""+i;
+				}
+			}
+			
+			for(int i = 0;i<values.length;i++) {
+				System.out.println(values[i]);
+			}
+		}
+		else {
+			System.err.println("Number should be positive");
+		}
+		sc.close();
+	}
+}
