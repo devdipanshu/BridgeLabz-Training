@@ -23,9 +23,9 @@ public class MayasBMI {
 			System.out.println("Status: Overweight");
 		}
 		else {
-			System.out.println("Status: Obese");
+			System.out.println("Status: Obese ");
 		}
 		
-		sc.close();
+		sc.close();   
 	}
 }
