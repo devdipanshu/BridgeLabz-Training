@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class LineComparisionComputation {
 	
-	//Use Case 1: Model A Line based on point consisting of (x,y) co-ordinates using Cartesian system to calculate its length
+	//Use Case 1: Model A Line based on a point consisting of (x,y) co-ordinates using the Cartesian system to calculate its length
 	public static double computeLength(double x1,double y1,double x2,double y2) {
 		
 		double lengthOfLine = Math.sqrt(Math.pow((x2-x1),2)+Math.pow((y2-y1),2));
