@@ -1,5 +1,3 @@
-package scenario_based;
-
 import java.util.Scanner;
 
 public class LineComparisionComputation {
