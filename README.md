@@ -1,106 +1,154 @@
-# 🚀 BridgeLabz Training – Industry-Ready Journey
+# BridgeLabz Training
 
-> Day-wise learning and hands-on practice during BridgeLabz – Capgemini training
-
-This repository contains my **daily learning, hands-on coding, and practical exercises** aimed at becoming **industry-ready**.  
-It covers **Core Java fundamentals**, **problem-solving**, **logical thinking**, **coding best practices**, and **real-world development concepts** aligned with industry standards.
-
-Everything here is written and organized as part of my continuous growth as a software developer.
+### Industry‑Ready Core Java & Problem‑Solving Journey
 
 ---
 
-## 📁 Repository Structure
+## 👋 Overview
 
+This repository captures my **day‑wise learning, hands‑on practice, and real‑world problem solving** during the **BridgeLabz – Capgemini Training Program**.
+
+The primary goal of this training is to build:
+
+* Strong **Core Java fundamentals**
+* Clear **logical thinking**
+* Practical **problem‑solving ability**
+* Industry‑aligned **coding practices**
+
+This repository reflects my continuous progress toward becoming an **industry‑ready software developer**.
+
+---
+
+## 🗂️ Project Structure
+
+```
 BridgeLabz-Training
 │
 ├── core-java-practice
-│ ├── programming-elements
-│ ├── control-flow
-│ ├── leet-code-codebase
 │
-├── OOP (upcoming)
-├── collections (upcoming)
-├── exceptions (upcoming)
+├── oops-practice
 │
-└── README.md
+├── dsa-practice
+│   ├── programming-elements
+│   ├── control-flow
+│   └── leet-code-codebase
+│
+├── collections          (upcoming)
+├── exceptions           (upcoming)
+│
+└── README.md 
+```
+
 
 ---
 
-## 🌿 Active Branch
+## 🌱 Active Development Branch
 
+**Branch:** `core-java-practice`
 
-All current practice code and implementations are maintained in the **core-java-practice** branch.
-
----
-
-## 📘 Daily Learning Log
-
-### 🟦 Week 1 — Foundation & Basics
+All daily practice, assignments, and implementations are actively maintained in this branch.
 
 ---
 
-### 📅 Day 1 | 16 December 2025  
-**Focus:** Git, GitHub & Logic Building
+## 📆 Learning Timeline
 
-- 🔧 Set up GitHub repository and folder structure  
-- 🔄 Practiced Git workflow:
-  - `git status`
-  - `git add`
-  - `git commit`
-  - `git push`
-- 🧠 Solved multiple problem statements assigned during the BridgeLabz training sessions.
-- 📌 Improved logical thinking and problem-solving approach  
+### ✅ Week 1 — Foundations & Basics
 
----
+**Duration:** 16–20 December 2025
 
-### 📅 Day 2 | 17 December 2025  
-**Focus:** Core Java Fundamentals
+**Key Highlights:**
 
-- 💻 Practiced basic Java programs  
-- 📚 Covered concepts:
-  - Java syntax  
-  - Input / Output handling  
-  - Arithmetic operations  
-  - Basic conditional logic  
+* Git & GitHub workflow
+* Core Java basics and syntax
+* Control flow statements
+* Array handling and logic building
+* Daily LeetCode problem solving
 
 ---
 
-### 📅 Day 3 | 18 December 2025  
-**Focus:** Programming Elements
+### ✅ Week 2 — Strings & Method‑Based Logic
 
-- 🧩 Implemented programs using:
-  - Variables and data types  
-  - Operators  
-  - Basic input/output  
-- 🎯 Main goal was to strengthen foundational logic  
+**Duration:** 22–26 December 2025
 
----
+**Key Highlights:**
 
-### 📅 Day 4 | 19 December 2025  
-**Focus:** Control Flow Statements
-
-- 🔁 Practiced:
-  - if, if-else, else-if  
-  - switch-case  
-  - Looping constructs (for, while, do-while)  
+* String traversal and manipulation
+* Palindrome, anagram, and frequency‑based problems
+* Method creation and reusability
+* Scenario‑based problem solving
+* Exception awareness and handling
 
 ---
 
-## 🧭 How to Navigate
+### ✅ Week 3 — OOPS & Real‑World Scenarios
 
-- 🔀 Use the branch selector on GitHub to switch to `core-java-practice`
-- 📂 Each folder represents a specific Java concept
-- 🔄 Repository is updated day-wise as training progresses
+**Duration:** 29 December 2025 – 3 January 2026
 
----
+**Key Highlights:**
 
-## 🚀 What’s Coming Next
-
-- 🧱 Object-Oriented Programming (OOP)
-- 📦 Java Collections Framework
-- ⚠️ Exception Handling
-- 🧠 Advanced Java problem solving
+* Object‑oriented design thinking
+* Classes, objects, and constructors
+* Inheritance and IS‑A relationships
+* Real‑world modeling using Java
+* Game and simulation logic (Snake & Ladder)
 
 ---
 
-⭐ This repository will continue to grow as I progress through the BridgeLabz training program.
+### ✅ Week 4 — Advanced OOPS & Data Structures
+
+**Duration:** 5–8 January 2026
+
+**Key Highlights:**
+
+* Abstraction, encapsulation, interfaces
+* Polymorphism in real scenarios
+* CRUD‑based system design
+* Linked List implementation in Java
+* Code reviews and feedback sessions
+
+---
+
+## **🧭 How to Use This Repository**
+
+1. **Start with the basics**
+
+   * Explore `core-java-practice` to understand Java syntax, fundamentals, and basic problem solving.
+
+2. **Move to Object-Oriented Programming**
+
+   * Use `oops-practice` to learn classes, objects, inheritance, polymorphism, abstraction, and real-world modeling.
+
+3. **Practice Data Structures & Logic**
+
+   * Go to `dsa-practice` for logic building and structured problem solving:
+
+4. **Track upcoming topics**
+
+   * `collections` and `exceptions` will be added as the training progresses.
+
+---
+
+## 🎯🧭 Who This Repository Is For
+
+* **BridgeLabz trainees** following a structured, day-wise learning path
+* **Java beginners** who want clear, logic-focused examples
+* **Students preparing for interviews** (Core Java, OOPS, DSA basics)
+* **Anyone aiming to become an industry-ready software developer** through consistent practice
+
+
+---
+
+## 🚧 Upcoming Learning Modules
+
+* Java Collections Framework
+* Exception Handling (Deep Dive)
+* Advanced problem‑solving patterns
+* Optimized and scalable Java design
+
+---
+
+## ⭐ Note
+
+This repository is actively maintained and updated **day‑by‑day** throughout the **BridgeLabz training journey**.
+
+It represents consistent effort, disciplined learning, and practical skill development toward professional software engineering.
