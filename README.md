@@ -44,7 +44,7 @@ BridgeLabz-Training
 
 ## 🌱 Active Development Branch
 
-**Branch:** `core-java-practice`
+**Branch:** `dsa-practice`
 
 All daily practice, assignments, and implementations are actively maintained in this branch.
 
