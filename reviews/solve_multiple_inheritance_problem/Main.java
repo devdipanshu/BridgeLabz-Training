@@ -1,0 +1,10 @@
+package solve_multiple_inheritance_problem;
+
+public class Main {
+	public static void main(String[] args) {
+		Student s = new Student();
+		s.setCollegeName("GLA");
+		s.setCourseName("Btech");
+		s.printGreeting();
+	}
+}
