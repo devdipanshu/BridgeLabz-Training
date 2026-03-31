@@ -1,0 +1,5 @@
+[
+  {"name":"Rahul","age":21},
+  {"name":"Anjali","age":28},
+  {"name":"Rohit","age":30}
+]
