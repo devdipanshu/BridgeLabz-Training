@@ -152,4 +152,3 @@ All daily practice, assignments, and implementations are actively maintained in 
 This repository is actively maintained and updated **day‑by‑day** throughout the **BridgeLabz training journey**.
 
 It represents consistent effort, disciplined learning, and practical skill development toward professional software engineering.
-
