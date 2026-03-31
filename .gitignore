@@ -1,12 +1,17 @@
-# Eclipse
-.classpath
-.project
+# Eclipse settings
 .settings/
+*.classpath
+*.project
 bin/
-
-# IntelliJ
+#Intelij Idea
 .idea/
-*.iml
+# Maven build folder
+target/
 
+# Logs and temp
+*.log
+*.tmp
 
-
+# OS files
+.DS_Store
+Thumbs.db
