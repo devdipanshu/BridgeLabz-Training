@@ -2,3 +2,20 @@
 .project
 .idea/
 bin/
+# Eclipse settings
+.settings/
+*.classpath
+*.project
+bin/
+#Intelij Idea
+.idea/
+# Maven build folder
+target/
+
+# Logs and temp
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
