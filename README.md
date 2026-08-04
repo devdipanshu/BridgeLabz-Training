@@ -69,8 +69,19 @@ Microservices
 
 ---
 
-### ⏳ Day 3
-> Coming Soon...
+### ✅ Day 3 - Advanced SQL
+- SQL Joins (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN)
+- Self Join
+- Stored Procedures
+- Triggers
+- SQL Practice & Assignments
+
+---
+
+### 🚧 Day 4
+> In Progress...
+>
+> Content will be updated after the completion of Day 4 training.
 
 ---
 
