@@ -78,7 +78,31 @@ Microservices
 
 ---
 
-### 🚧 Day 4
+### ✅ Day 4 - JDBC Fundamentals
+- JDBC Architecture
+- JDBC Driver
+- Database Connectivity
+- Statement vs PreparedStatement
+- ResultSet
+- CRUD Operations
+- Layered Architecture (DAO, Service, Model)
+
+#### 🏥 Mini Project
+
+To apply the concepts learned in JDBC, I developed a complete **Health Clinic Management System** using **Java, JDBC, and MySQL**.
+
+👉 **Project:** [`Health-Clinic-App`](./Health-Clinic-App)
+
+**Key Features**
+- Patient CRUD Operations
+- Doctor Management
+- Appointment Management
+- Layered Architecture (DAO, Service, DTO)
+- MySQL Database Integration
+
+---
+
+### 🚧 Day 5
 > In Progress...
 >
 > Content will be updated after the completion of Day 4 training.
