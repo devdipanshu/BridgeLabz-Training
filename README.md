@@ -102,7 +102,19 @@ To apply the concepts learned in JDBC, I developed a complete **Health Clinic Ma
 
 ---
 
-### 🚧 Day 5
+### ✅ Day 5 - Servlet Fundamentals
+
+- Introduction to Servlets
+- Servlet Container
+- Apache Tomcat Server
+- Creating a Basic Servlet
+- Deployment of Servlet on Tomcat
+- Handling HTTP Requests & Responses
+- URL Mapping using `web.xml` / `@WebServlet`
+
+---
+
+### 🚧 Day 6
 > In Progress...
 >
 > Content will be updated after the completion of Day 4 training.
