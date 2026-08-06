@@ -117,7 +117,7 @@ To apply the concepts learned in JDBC, I developed a complete **Health Clinic Ma
 ### 🚧 Day 6
 > In Progress...
 >
-> Content will be updated after the completion of Day 4 training.
+> Content will be updated after the completion of Day 6 training.
 
 ---
 
