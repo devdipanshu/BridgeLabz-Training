@@ -114,10 +114,26 @@ To apply the concepts learned in JDBC, I developed a complete **Health Clinic Ma
 
 ---
 
-### 🚧 Day 6
+### ✅ Day 6 - Spring MVC & Core Concepts
+
+- Introduction to Spring MVC
+- MVC Architecture
+- Controller and `@Controller`
+- REST Controller and `@RestController`
+- Inversion of Control (IoC)
+- Dependency Injection (DI)
+- Spring Container
+- Beans and Bean Lifecycle
+- Component Scanning
+- Request Mapping and HTTP Methods
+- Basic REST API Implementation
+
+---
+
+### 🚧 Day 7
 > In Progress...
 >
-> Content will be updated after the completion of Day 6 training.
+> Content will be updated after the completion of Day 7 training.
 
 ---
 
