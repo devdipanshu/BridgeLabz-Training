@@ -130,10 +130,42 @@ To apply the concepts learned in JDBC, I developed a complete **Health Clinic Ma
 
 ---
 
-### 🚧 Day 7
+### ✅ Day 7 - Spring Boot & REST API
+
+- Introduction to Spring Boot
+- Spring Boot Project Structure
+- Spring Boot Application Configuration
+- REST API Development
+- `@RestController`
+- `@RequestMapping`
+- `@GetMapping`, `@PostMapping`, `@PatchMapping`
+- Request DTO and Response DTO
+- Entity and Repository
+- Service Layer
+- Dependency Injection
+- HTTP Request & Response Handling
+
+#### 📱 Mini Project - Contact App
+
+Built a **Contact Management REST API** using **Spring Boot** to implement the concepts covered during Day 7.
+
+👉 **[Open Contact App](./Day-7/ContactApp)**
+
+**Key Features**
+- Create Contact
+- Get Contact
+- Update Contact
+- Delete Contact
+- Request & Response DTOs
+- Layered Architecture
+- RESTful API Design
+
+---
+
+### 🚧 Day 8
 > In Progress...
 >
-> Content will be updated after the completion of Day 7 training.
+> Content will be updated after the completion of Day 8 training.
 
 ---
 
