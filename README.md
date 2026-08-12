@@ -162,7 +162,37 @@ Built a **Contact Management REST API** using **Spring Boot** to implement the c
 
 ---
 
-### 🚧 Day 8
+### ✅ Day 8 - College Management System: Student Module
+
+- Worked on the **Student Module** of the College Management System
+- Student Entity
+- Student Request & Response DTOs
+- Student Controller
+- Student Service Layer
+- Student Repository
+- CRUD Operations for Students
+- Request Validation
+- REST API Implementation
+- DTO Mapping
+
+---
+
+### ✅ Day 9 - College Management System: Faculty Module
+
+- Worked on the **Faculty Module** of the College Management System
+- Faculty Entity
+- Faculty Request & Response DTOs
+- Faculty Controller
+- Faculty Service Layer
+- Faculty Repository
+- CRUD Operations for Faculty
+- Request Validation
+- REST API Implementation
+- DTO Mapping
+
+---
+
+### 🚧 Day 10
 > In Progress...
 >
 > Content will be updated after the completion of Day 8 training.
