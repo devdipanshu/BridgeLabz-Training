@@ -4,8 +4,10 @@ import lombok.RequiredArgsConstructor;
 import org.example.collegemanagementsystem.dto.request.StudentRequestDTO;
 import org.example.collegemanagementsystem.dto.response.StudentResponseDTO;
 import org.example.collegemanagementsystem.entity.Student;
+import org.example.collegemanagementsystem.exception.EmployeeNotFound;
 import org.example.collegemanagementsystem.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -52,7 +54,7 @@ public class StudentService {
     }
 
     public StudentResponseDTO getStudentById(Long id){
-        return studentRepository.findById(id).orElseThrow(()-> new RuntimeException("unable to find the value")).toDto();
+        return studentRepository.findById(id).orElseThrow(()-> new EmployeeNotFound("Unable to find Student", HttpStatus.NOT_FOUND)).toDto();
     }
 
     public void deleteStudentById(Long id){

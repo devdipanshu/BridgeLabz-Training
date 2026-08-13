@@ -4,8 +4,10 @@ import lombok.RequiredArgsConstructor;
 import org.example.collegemanagementsystem.dto.request.FacultyRequestDTO;
 import org.example.collegemanagementsystem.dto.response.FacultyResponseDTO;
 import org.example.collegemanagementsystem.entity.Faculty;
+import org.example.collegemanagementsystem.exception.FacultyNotFound;
 import org.example.collegemanagementsystem.repository.FacultyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -59,7 +61,7 @@ public class FacultyService {
 
         return facultyRepository.findById(id)
                 .orElseThrow(() ->
-                        new RuntimeException("Unable to find the faculty"))
+                        new FacultyNotFound("Unable to find faculty", HttpStatus.NOT_FOUND))
                 .toDto();
     }
 
