@@ -192,10 +192,30 @@ Built a **Contact Management REST API** using **Spring Boot** to implement the c
 
 ---
 
-### 🚧 Day 10
+### ✅ Day 10 - Exception Handling & Employee Payroll App Structure
+
+#### 🎓 College Management System
+
+- Implemented Exception Handling in the existing College Management System
+- Created custom exceptions
+- Defined exception handling structure
+- Improved API error handling and response management
+
+👉 **[Open College Management System](./Day-9/CollegeManagementSystem)**
+
+#### 👨‍💼 Employee Payroll App
+
+- Defined the project structure for the Employee Payroll App
+- Designed the layered architecture
+- Planned Controller, Service, Repository, Entity, DTO, and Exception layers
+- Project implementation will start from Day 11
+
+---
+
+### 🚧 Day 11
 > In Progress...
 >
-> Content will be updated after the completion of Day 8 training.
+> Content will be updated after the completion of Day 11 training.
 
 ---
 
