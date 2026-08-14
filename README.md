@@ -212,10 +212,35 @@ Built a **Contact Management REST API** using **Spring Boot** to implement the c
 
 ---
 
-### 🚧 Day 11
+### ✅ Day 11 - Contact App Enhancement
+
+#### 📱 Contact App
+
+Continued development of the **Contact Management REST API** and enhanced the application with important backend features.
+
+### 🔐 Transaction Management
+- Implemented `@Transactional`
+- Applied transaction management at the service layer
+- Improved data consistency and rollback handling
+
+### 📝 Logging
+- Implemented application logging using SLF4J
+- Added logs for important operations and errors
+- Used appropriate log levels for debugging
+
+### ⚠️ Exception Handling
+- Implemented centralized exception handling
+- Created custom exceptions
+- Improved API error responses and error messages
+
+👉 **[Open Contact App](./Day-11/ContactApp)**
+
+---
+
+### 🚧 Day 12
 > In Progress...
 >
-> Content will be updated after the completion of Day 11 training.
+> Content will be updated after the completion of Day 12 training.
 
 ---
 
