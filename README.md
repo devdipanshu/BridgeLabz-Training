@@ -237,10 +237,61 @@ Continued development of the **Contact Management REST API** and enhanced the ap
 
 ---
 
-### 🚧 Day 12
+### ✅ Day 12 - Employee Payroll App: Employee Module
+
+#### 👨‍💼 Employee Payroll Management System
+
+Started the implementation of a **Spring Boot based Employee Payroll Management System** with a focus on clean architecture, JPA entity relationships, DTO-based API design, and scalable project structure.
+
+### 🏗️ Project Architecture
+
+- Designed a **Layered Architecture** with Controller, Service, Repository, Entity, DTO, Mapper, and Exception layers
+- Structured the application for maintainability and future feature expansion
+- Followed separation of concerns across different application layers
+
+### 🗃️ JPA Entity Design
+
+- Designed `Employee`, `Department`, and `Payroll` entities
+- Implemented **bidirectional `@OneToMany` and `@ManyToOne` relationships**
+- Established the Employee–Department relationship
+- Established the Employee–Payroll relationship
+- Added `Role` enum with `EMPLOYEE`, `MANAGER`, and `ADMIN` roles
+- Designed the entity structure keeping future **role-based access control** in mind
+
+### 📦 DTO & Mapping
+
+- Created **Employee Request DTO** for incoming API requests
+- Created **Employee Response DTO** for API responses
+- Implemented a dedicated **Employee Mapper**
+- Separated API models from persistence entities
+
+### 👨‍💼 Employee Module
+
+- Created `EmployeeRepository` using Spring Data JPA
+- Implemented `EmployeeService` for business logic
+- Created `EmployeeController` for REST API endpoints
+- Implemented the basic Employee CRUD flow
+- Integrated DTO mapping between Controller, Service, and Entity layers
+
+### 🔐 Security Preparation
+
+- Designed the Employee role structure for upcoming **Spring Security integration**
+- Planned role-based authorization using `EMPLOYEE`, `MANAGER`, and `ADMIN`
+- Prepared the project structure for future **JWT-based authentication and authorization**
+
+### 🚧 Next Steps
+
+- Complete Department Module
+- Implement Payroll Module and salary calculation logic
+- Add request validation and centralized exception handling
+- Implement Spring Security
+- Add JWT Authentication
+- Implement Role-Based Authorization
+
+### 🚧 Day 13
 > In Progress...
 >
-> Content will be updated after the completion of Day 12 training.
+> Content will be updated after the completion of Day 13 training.
 
 ---
 
