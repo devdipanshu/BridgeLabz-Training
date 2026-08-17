@@ -288,6 +288,8 @@ Started the implementation of a **Spring Boot based Employee Payroll Management 
 - Add JWT Authentication
 - Implement Role-Based Authorization
 
+---
+
 ### 🚧 Day 13
 > In Progress...
 >
