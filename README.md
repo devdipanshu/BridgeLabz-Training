@@ -290,10 +290,48 @@ Started the implementation of a **Spring Boot based Employee Payroll Management 
 
 ---
 
-### 🚧 Day 13
+### ✅ Day 13 - Employee Payroll App: Employee, Department & Payroll Modules
+
+#### 👨‍💼 Employee Payroll Management System
+
+Continued development of the **Employee Payroll Management System** with JPA relationships, Department & Payroll modules, and JWT-based authentication.
+
+### 🗃️ JPA Relationship Implementation
+
+- Implemented `Employee`, `Department`, and `Payroll` relationships
+- Worked with bidirectional `@OneToMany` and `@ManyToOne` mappings
+- Resolved JPA relationship and cascading issues
+- Fixed entity persistence and relationship handling
+
+### 🏢 Department & Payroll Modules
+
+- Implemented Department Controller, Service, DTO, and Mapper
+- Implemented Payroll Controller, Service, DTO, and Mapper
+- Integrated Employee–Department and Employee–Payroll relationships
+- Implemented Department and Payroll API operations
+
+### 🔐 Spring Security & JWT
+
+- Implemented `SecurityFilterChain`
+- Configured authentication and protected endpoints
+- Implemented JWT generation and validation
+- Created Login API
+- Implemented authentication logic using `AuthenticationManager`
+
+### 🚧 Next Steps
+
+- Implement JWT Authentication Filter
+- Implement Role-Based Authorization
+- Add centralized exception handling
+- Add request validation
+- Implement payroll salary calculation logic
+
+---
+
+### 🚧 Day 14
 > In Progress...
 >
-> Content will be updated after the completion of Day 13 training.
+> Content will be updated after the completion of Day 14 training.
 
 ---
 
