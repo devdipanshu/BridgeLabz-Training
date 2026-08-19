@@ -328,10 +328,91 @@ Continued development of the **Employee Payroll Management System** with JPA rel
 
 ---
 
-### 🚧 Day 14
+### ✅ Day 14 - Employee Payroll App: Security & Business Logic
+
+#### 👨‍💼 Employee Payroll Management System
+
+Completed the major implementation of the **Employee Payroll Management System** with complete Spring Security integration, role-based access control, transactional business operations, and additional Employee management features.
+
+### 🔐 Spring Security & JWT
+
+- Fully implemented **Spring Security**
+- Implemented **JWT-based authentication**
+- Implemented JWT authentication filter
+- Configured `SecurityFilterChain`
+- Secured all protected REST API endpoints
+- Configured authentication and authorization flow
+- Implemented **Role-Based Access Control (RBAC)**
+- Added role-based endpoint authorization for:
+    - `EMPLOYEE`
+    - `MANAGER`
+    - `ADMIN`
+- Restricted API operations based on employee roles
+- Configured public and protected endpoints
+
+### 👨‍💼 Employee Module Enhancements
+
+- Added additional Employee management operations
+- Implemented role-based restrictions for Employee operations
+- Improved Employee service-layer business logic
+- Integrated security checks with Employee operations
+- Improved API access control and endpoint security
+
+### 🏢 Department & Payroll
+
+- Completed integration between Employee, Department, and Payroll modules
+- Implemented required business operations
+- Maintained proper JPA entity relationships
+- Improved persistence and relationship handling
+
+### 🔄 Transaction Management
+
+- Applied `@Transactional` at required service-layer operations
+- Ensured multiple database operations execute atomically
+- Improved data consistency
+- Added rollback support for failed business operations
+- Used transactions where multiple related entities are modified together
+
+### 🏗️ Architecture & Code Quality
+
+- Followed layered architecture
+- Maintained separation of Controller, Service, Repository, Entity, DTO, Mapper, and Security layers
+- Improved business logic organization
+- Secured APIs according to application roles
+- Improved overall project structure and maintainability
+
+### 🚀 Project Status
+
+The major implementation of the **Employee Payroll Management System is now almost complete**, including:
+
+- ✅ Employee Module
+- ✅ Department Module
+- ✅ Payroll Module
+- ✅ JPA Relationships
+- ✅ DTO & Mapper Layer
+- ✅ Exception Handling
+- ✅ Spring Security
+- ✅ JWT Authentication
+- ✅ JWT Authentication Filter
+- ✅ Role-Based Authorization
+- ✅ Secure REST APIs
+- ✅ Transaction Management
+- ✅ Employee Business Operations
+
+### 🚧 Next Steps
+
+- Complete remaining edge cases and validations
+- Add comprehensive unit and integration testing
+- Improve API documentation
+- Refactor and optimize code where required
+- Final project testing and cleanup
+
+---
+
+### 🚧 Day 15
 > In Progress...
 >
-> Content will be updated after the completion of Day 14 training.
+> Content will be updated after the completion of Day 15 training.
 
 ---
 
