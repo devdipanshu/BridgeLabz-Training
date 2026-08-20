@@ -409,10 +409,70 @@ The major implementation of the **Employee Payroll Management System is now almo
 
 ---
 
-### 🚧 Day 15
+### ✅ Day 15 - Employee Payroll App: Exception Handling, Profiling & API Validation
+
+#### 👨‍💼 Employee Payroll Management System
+
+Focused on improving the overall stability, structure, security, and reliability of the **Employee Payroll Management System** before moving towards the next project.
+
+### ⚠️ Exception Handling
+
+- Implemented and improved centralized **Exception Handling**
+- Added custom exceptions wherever required
+- Improved error handling across Service and Controller layers
+- Standardized API error responses
+- Improved handling of invalid requests and business-level exceptions
+
+### 📊 Application Profiling
+
+- Added **Application Profiling** to analyze application behavior
+- Reviewed application structure and execution flow
+- Identified areas for improvement and optimization
+- Improved overall code organization and maintainability
+
+### 🏗️ Project Structure Improvement
+
+- Refactored the existing project structure
+- Improved separation of responsibilities across application layers
+- Organized Controller, Service, Repository, DTO, Mapper, Security, and Exception components
+- Improved code readability and maintainability
+- Cleaned up unnecessary or redundant implementation
+
+### 🔐 Security & API Validation
+
+- Tested all REST API endpoints using **Postman** to ensure they are working as expected
+- Verified JWT-based authentication flow
+- Verified **Role-Based Access Control (RBAC)** for:
+  - `EMPLOYEE`
+  - `MANAGER`
+  - `ADMIN`
+- Ensured protected endpoints cannot be accessed without valid authentication
+- Verified role-based restrictions for protected operations
+- Verified public and secured endpoint configuration
+- Validated **Employee, Department, and Payroll APIs**
+- Verified successful, invalid, unauthorized, and restricted request scenarios
+- Ensured the overall API flow is working correctly with the implemented security configuration
+
+### 📋 Next Project Preparation
+
+Along with completing the Employee Payroll App improvements, started preparation for the upcoming **Fundoo App**, which will be implemented from **Day 16**.
+
+- Performed **Requirement Analysis** for the Fundoo App
+- Identified major application modules and features
+- Analyzed the expected application workflow
+- Planned the core backend functionality
+- Designed the initial application architecture
+- Identified required entities and relationships
+- Planned the API structure and application layers
+- Prepared the initial project structure for development
+- Planned Controller, Service, Repository, Entity, DTO, Mapper, Exception, and Security layers
+
+---
+
+### 🚧 Day 16
 > In Progress...
 >
-> Content will be updated after the completion of Day 15 training.
+> Content will be updated after the completion of Day 16 training.
 
 ---
 
