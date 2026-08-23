@@ -158,7 +158,7 @@ Implemented DTO-based API responses instead of directly exposing JPA entities.
 
 ### Data Flow
 
-```text
+```
 Entity
    ↓
 Mapper
@@ -168,3 +168,116 @@ DTO
 Controller
    ↓
 API Response
+```
+
+---
+
+# 🔮 Upcoming Development
+
+The Fundoo Notes application is currently under active development. The core monolithic features are being implemented first, followed by advanced backend and distributed-system features.
+
+The following features are planned for the upcoming **1–2 days**:
+
+### 🛡️ Exception Handling
+
+- Implement centralized global exception handling.
+- Create custom exception classes for application-specific errors.
+- Implement `@RestControllerAdvice` for handling exceptions globally.
+- Handle common exceptions such as:
+    - Resource Not Found
+    - Duplicate Resource
+    - Invalid Request
+    - Unauthorized Access
+    - Validation Errors
+- Return proper HTTP status codes.
+- Provide structured and meaningful error responses.
+
+### ⚡ Caching
+
+- Implement application-level caching.
+- Integrate **Redis** for distributed caching.
+- Use Spring Cache annotations:
+    - `@Cacheable`
+    - `@CachePut`
+    - `@CacheEvict`
+- Reduce unnecessary database calls and improve response time.
+
+### 📨 Asynchronous Communication
+
+- Implement asynchronous processing.
+- Introduce message-based communication.
+- Handle background operations asynchronously.
+- Reduce blocking operations where applicable.
+
+### ⏰ Reminders
+
+- Implement note reminder functionality.
+- Schedule reminder events.
+- Process reminders asynchronously.
+- Integrate **JMS (Java Message Service)**.
+- Implement notification/reminder processing.
+
+### 🤝 Collaboration
+
+- Implement note collaboration functionality.
+- Share notes with other users.
+- Add and remove collaborators.
+- Manage collaborator permissions.
+- Implement proper authorization for shared notes.
+
+### 🔐 Security Finalization
+
+- Remove temporary `permitAll()` configurations.
+- Secure all protected APIs.
+- Finalize JWT authentication and authorization.
+- Implement proper resource-level authorization.
+- Improve security for collaborative features.
+
+### 🧩 Microservices Architecture
+
+After completing the major monolithic features, the application will be migrated to a **Microservices Architecture**.
+
+Planned services may include:
+
+- User Service
+- Notes Service
+- Label Service
+- Reminder / Notification Service
+- Collaboration Service
+
+Additional distributed-system components:
+
+- API Gateway
+- Service Discovery
+- Inter-service Communication
+- Redis Distributed Cache
+- Asynchronous Messaging
+
+---
+
+## 🚀 Final Development Roadmap
+
+```text
+Monolithic Spring Boot Application
+                ↓
+          Core CRUD Features
+                ↓
+       Authentication + JWT
+                ↓
+    Exception Handling + Validation
+                ↓
+       Search & Filtering
+                ↓
+          Redis Caching
+                ↓
+  Asynchronous Communication
+                ↓
+        JMS + Reminders
+                ↓
+         Collaboration
+                ↓
+       Microservices
+                ↓
+     API Gateway + Discovery
+                ↓
+   Distributed Fundoo Application
