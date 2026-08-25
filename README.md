@@ -469,10 +469,115 @@ Along with completing the Employee Payroll App improvements, started preparation
 
 ---
 
-### 🚧 Day 16
+### 🚀 Day 16 - Fundoo Notes Application
+
+#### 📝 Fundoo Notes Application
+
+Started development of the **Fundoo Notes Application** using **Spring Boot** and **MySQL**.
+
+* Implemented the initial **Monolithic Architecture**
+* Configured MySQL database and project structure
+* Implemented User Registration and Login
+* Implemented **JWT-based Authentication & Authorization**
+* Implemented Notes CRUD operations
+* Implemented Note Ownership
+* Added Pin, Archive and Trash functionality
+* Implemented Labels and Label-Note association
+* Added Search & Filtering using JPA Specifications
+* Implemented DTO and Mapper layers
+* Added validation and initial Exception Handling structure
+* Implemented layered architecture with Controller, Service, Repository, Entity, DTO, Mapper, Exception, and Security layers
+
+📂 **Project:** [Fundoo Notes Application](https://github.com/devdipanshu/BridgeLabz-Training/tree/Refresher-Training/Fundoo)
+
+---
+
+### ⚡ Day 17 - Fundoo App: Redis Caching & RabbitMQ
+
+#### 💾 Redis Cache Implementation
+
+Implemented **Redis Caching** in the Fundoo Notes Application to improve performance and reduce unnecessary database calls.
+
+* Integrated **Redis** with Spring Boot
+* Used **Memurai** as the Redis-compatible service
+* Implemented Spring Cache
+* Used `@Cacheable` for caching frequently accessed data
+* Used `@CacheEvict` for cache invalidation
+* Configured cache TTL
+* Configured Redis serialization
+* Verified cache hit and cache miss behavior
+
+#### 📨 RabbitMQ Implementation
+
+Implemented **RabbitMQ** for asynchronous message communication.
+
+* Configured RabbitMQ with Spring Boot
+* Implemented Producer and Consumer
+* Configured Exchange, Queue, and Binding
+* Implemented message publishing and consumption
+* Configured RabbitMQ using **Docker**
+* Created and managed RabbitMQ container
+* Used RabbitMQ Management UI to monitor queues and exchanges
+
+📂 **Project:** [Fundoo Notes Application](https://github.com/devdipanshu/BridgeLabz-Training/tree/Refresher-Training/Fundoo)
+
+---
+
+### 🔄 Day 18 - Fundoo App: Bug Fixing, New APIs & Microservices Revision
+
+#### 🐞 Bug Fixing & API Improvements
+
+Continued improving the Fundoo Notes Application by identifying existing issues and implementing additional APIs.
+
+* Identified and fixed bugs in the existing application
+* Improved existing endpoint behavior
+* Added new REST API endpoints
+* Implemented required Service and Repository logic
+* Verified updated and newly added APIs using **Postman**
+
+#### 🧩 Microservices Architecture Revision
+
+Revised the concepts required to migrate the current **Monolithic Fundoo Application** to **Microservices Architecture**.
+
+* Revised Monolith to Microservices migration strategy
+* Studied how to divide the application into independent services
+* Revised **API Gateway** concepts
+* Understood API Gateway request routing
+* Revised **JWT Security in Microservices**
+* Studied authentication and authorization flow across services
+* Revised **Service Discovery**
+* Revised **Database per Service**
+* Studied synchronous and asynchronous inter-service communication
+* Revised the role of **RabbitMQ** in Microservices Architecture
+
+📂 **Project:** [Fundoo Notes Application](https://github.com/devdipanshu/BridgeLabz-Training/tree/Refresher-Training/Fundoo)
+
+---
+
+### 🔮 Upcoming Development
+
+The next phase of the **Fundoo Notes Application** will focus on moving from the current **Monolithic Architecture** towards a **Microservices Architecture**.
+
+Planned development includes:
+
+* Implement centralized **Exception Handling**
+* Divide Fundoo into independent microservices
+* Implement **API Gateway**
+* Configure **Service Discovery**
+* Implement JWT-based security across microservices
+* Implement inter-service communication
+* Integrate RabbitMQ where required
+* Configure independent databases for services
+* Dockerize microservices
+* Continue implementing remaining Fundoo features
+
+---
+
+### 🚧 Day 19
+
 > In Progress...
 >
-> Content will be updated after the completion of Day 16 training.
+> Content will be updated after the completion of Day 19 training.
 
 ---
 
@@ -485,6 +590,9 @@ BridgeLabz-Refresher-Training/
 ├── Day-2/
 ├── Day-3/
 ├── ...
+├── Day-16/
+├── Day-17/
+├── Day-18/
 └── README.md
 ```
 
@@ -492,6 +600,6 @@ BridgeLabz-Refresher-Training/
 
 ## 🎯 Goal
 
-This repository documents my complete **BridgeLabz Refresher Training** journey with daily hands-on practice, assignments, and implementation of backend development concepts from **SQL** to **Spring Microservices**.
+This repository documents my complete **BridgeLabz Refresher Training** journey with daily hands-on practice, assignments, and implementation of backend development concepts from **SQL to Spring Microservices**.
 
 ⭐ Feel free to explore the day-wise folders to track my learning progress.
