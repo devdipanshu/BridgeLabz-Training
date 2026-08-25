@@ -1,7 +1,6 @@
 package org.example.fundoo.controller;
 
 import lombok.Data;
-import org.apache.coyote.Response;
 import org.example.fundoo.dto.request.LabelRequestDTO;
 import org.example.fundoo.dto.request.NoteRequestDTO;
 import org.example.fundoo.dto.request.UpdateNoteRequestDTO;

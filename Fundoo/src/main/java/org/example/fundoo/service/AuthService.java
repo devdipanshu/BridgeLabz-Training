@@ -4,6 +4,7 @@ import lombok.Data;
 import org.example.fundoo.dto.response.RegisterResponseDTO;
 import org.example.fundoo.entity.User;
 import org.example.fundoo.mapper.UserMapper;
+import org.example.fundoo.producer.UserRegistrationProducer;
 import org.example.fundoo.repository.UserRepository;
 import org.example.fundoo.security.JwtService;
 import org.springframework.http.HttpStatus;
@@ -25,10 +26,12 @@ public class AuthService {
     private final UserMapper userMapper;
     private final AuthenticationManager authenticationManager;
     private final JwtService jwtService;
+    private final UserRegistrationProducer userRegistrationProducer;
 
     public ResponseEntity<RegisterResponseDTO> register(User user){
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         User user1 = userRepository.save(user);
+        userRegistrationProducer.sendRegistrationMessage("User Registered Successfully");
         return ResponseEntity.status(HttpStatus.CREATED)
                 .body(userMapper.toDTO(user1));
     }
